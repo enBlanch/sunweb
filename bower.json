@@ -1,0 +1,29 @@
+{
+  "name": "sunweb",
+  "homepage": "https://github.com/enBlanch/sunweb",
+  "authors": [
+    "enblanch <etlo3d@yahoo.es>"
+  ],
+  "description": "Altran web test",
+  "main": "",
+  "keywords": [
+    "Altran",
+    "sunweb",
+    "Alvar"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "directory": "components/",
+  "devDependencies": {
+    "jquery": "~3.1.0"
+  },
+  "dependencies": {
+    "normalize-scss": "normalize.scss#^5.0.3"
+  }
+}
