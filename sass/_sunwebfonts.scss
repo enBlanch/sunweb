@@ -1,0 +1,93 @@
+/*Pacifico*/
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+
+  src: url('#{$path-fonts}pacifico.eot');
+  src: url('#{$path-fonts}pacifico.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}pacifico.woff') format('woff'),
+  url('#{$path-fonts}pacifico.ttf')  format('truetype'),
+  url('#{$path-fonts}pacifico.svg#pacifico') format('svg');
+}
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 700;
+
+  src: url('#{$path-fonts}pacifico.eot');
+  src: url('#{$path-fonts}pacifico.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}pacifico.woff') format('woff'),
+  url('#{$path-fonts}pacifico.ttf')  format('truetype'),
+  url('#{$path-fonts}pacifico.svg#pacifico') format('svg');
+}
+
+/*Fords Folly*/
+
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 400;
+
+  src: url('#{$path-fonts}fords-folly.eot');
+  src: url('#{$path-fonts}fords-folly.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}fords-folly.woff2') format('woff2'),
+  url('#{$path-fonts}fords-folly.woff') format('woff'),
+  url('#{$path-fonts}fords-folly.ttf')  format('truetype'),
+  url('#{$path-fonts}fords-folly.svg#fordsfolly') format('svg');
+}
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 700;
+
+  src: url('#{$path-fonts}fords-folly.eot');
+  src: url('#{$path-fonts}fords-folly.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}fords-folly.woff2') format('woff2'),
+  url('#{$path-fonts}fords-folly.woff') format('woff'),
+  url('#{$path-fonts}fords-folly.ttf')  format('truetype'),
+  url('#{$path-fonts}fords-folly.svg#fords-folly') format('svg');
+}
+$font-fords-folly: 'Fords Folly', Verdana, Arial, sans-serif !default;
+
+
+/* Sansa Pro Bold*/
+// Import the font file as bold weight
+// --------------------------------------------------
+
+@font-face {
+  font-family: 'Sansa Pro Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$path-fonts}sansa-pro-bold.eot');
+  src: url('#{$path-fonts}sansa-pro-bold.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}sansa-pro-bold.woff') format('woff'),
+  url('#{$path-fonts}sansa-pro-bold.ttf')  format('truetype'),
+  url('#{$path-fonts}sansa-pro-bold.svg#sansa-pro-bold') format('svg');
+}
+
+// Set the font variable
+// --------------------------------------------------
+$font-sansa-pro-bold: 'Sansa Pro Bold', Verdana, Arial, sans-serif !default;
+
+/* Sansa Pro */
+
+@font-face {
+  font-family: 'Sansa Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$path-fonts}sansa-pro.eot');
+  src: url('#{$path-fonts}sansa-pro.eot?#iefix') format('embedded-opentype'),
+  url('#{$path-fonts}sansa-pro.woff') format('woff'),
+  url('#{$path-fonts}sansa-pro.ttf')  format('truetype'),
+  url('#{$path-fonts}sansa-pro.svg#sansa-pro') format('svg');
+}
+
+// Set the font variable
+// --------------------------------------------------
+$font-sansa-pro: 'Sansa Pro', Verdana, Arial, sans-serif !default;
+
+
+@import 'icon-collection';
+@import 'variables';
+@import 'icon-sizes';
