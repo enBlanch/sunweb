@@ -2,25 +2,30 @@
 
 $path-fonts :"./fonts/";
 
-/* Base colors*/
+// Base colors
 
 $base-color-1 : #ed1c2e;
 $base-color-2 : #f99500;
 $base-color-3 : #20a0de;
 
-$site-slogan-bg-color : #f9eb2d;
 
-$base-color:orange;
+// text colors
 
 $base-text-color : #000;
 $inverse-text-color: #fff;
 $inverse-text-color: #fff;
 $outstanding-text-color : $base-color-1;
 
+// Basic Backgroun colors
+
 $main-bg-color: white;
 $web-gb-color: #eee;
+$site-slogan-bg-color : #f9eb2d;
 
-$tablet-break : 480px;
-$screen-break : 960px;
-$x-large-screen-break : 1680px;
+
+//Responsive breakpoint definitions
+
+$breakpoint-sm : 480px;
+$breakpoint-md : 960px;
+$breakpoint-lg : 1680px;
 
