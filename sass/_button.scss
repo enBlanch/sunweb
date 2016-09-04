@@ -1,7 +1,7 @@
 // Style for buttons in the site
 .button{ //Buttons propertyes
 	display: inline-block;
-	background-color: $base-color-1;
+	background-color: $color-base-1;
 	margin: 2em 0; 
 	padding: .5em 1.2em;
 	text-transform: uppercase; 
@@ -9,10 +9,10 @@
 	font-family: $font-sansa-pro-bold;
   	font-weight: 700;
   	color: $inverse-text-color;
-  	border : 3px solid $base-color-1;
+  	border : 3px solid $color-base-1;
 }
 
 .button:hover{	// button hover efect
 	background-color: transparent;
-	color: $base-color-1;
+	color: $color-base-1;
 }

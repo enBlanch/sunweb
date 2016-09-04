@@ -2,11 +2,19 @@
 
 $path-fonts :"./fonts/";
 
-// Base colors
 
-$base-color-1 : #ed1c2e;
-$base-color-2 : #f99500;
-$base-color-3 : #20a0de;
+
+$color-red : #ed1c2e;
+$color-orange : #f99500;
+$color-blue : #f99500;
+$color-yellow : #f9eb2d;
+$color-gray :#eee;
+
+
+// Base colors
+$color-base-1 : $color-red;
+$color-base-2 : $color-orange;
+$color-base-3 : $color-blue;
 
 
 // text colors
@@ -14,13 +22,13 @@ $base-color-3 : #20a0de;
 $base-text-color : #000;
 $inverse-text-color: #fff;
 $inverse-text-color: #fff;
-$outstanding-text-color : $base-color-1;
+$outstanding-text-color : $color-red;
 
 // Basic Backgroun colors
 
 $main-bg-color: white;
-$web-gb-color: #eee;
-$site-slogan-bg-color : #f9eb2d;
+$web-gb-color: $color-gray;
+$site-slogan-bg-color : $color-yellow;
 
 
 //Responsive breakpoint definitions
