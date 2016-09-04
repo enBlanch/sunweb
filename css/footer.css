@@ -128,7 +128,8 @@ footer {
   font-family: "Sansa Pro", Verdana, Arial, sans-serif;
   position: relative; }
   footer a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #444; }
 
 .footer-top {
   background-color: #eee;

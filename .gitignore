@@ -1,3 +1,4 @@
 #folders to ignore
-.sass-cahe/*
+.*
+!/.gitignore
 bower_components/*

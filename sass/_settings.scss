@@ -6,9 +6,10 @@ $path-fonts :"./fonts/";
 
 $color-red : #ed1c2e;
 $color-orange : #f99500;
-$color-blue : #f99500;
+$color-blue : #20a0de;
 $color-yellow : #f9eb2d;
 $color-gray :#eee;
+$color-dark-grak: #444;
 
 
 // Base colors
@@ -20,6 +21,7 @@ $color-base-3 : $color-blue;
 // text colors
 
 $base-text-color : #000;
+$color-link-text: $color-dark-grak;
 $inverse-text-color: #fff;
 $inverse-text-color: #fff;
 $outstanding-text-color : $color-red;

@@ -46,10 +46,10 @@ body{
 
 // link color properties
 
-a:link {color:$color-base-3;}      
-a:visited {color:darken( $color-base-3, 30% ); }  
-a:hover {color:darken( $color-base-3, 50% ); } 
-a:active {color:lighten( $color-base-3, 30% ); } 
+a:link {color:$color-link-text;}      
+a:visited {color:darken( $color-link-text, 30% ); }  
+a:hover {color:darken( $color-link-text, 50% ); } 
+a:active {color:lighten( $color-link-text, 30% ); } 
 
 .clear-fix:after {
 	clear: both;

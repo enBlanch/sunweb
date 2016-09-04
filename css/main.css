@@ -1,70 +1,163 @@
 /*
-Error: Undefined variable: "$font-sansa-pro".
-        on line 44 of sass/main.scss
-
-39: 	}
-40: }
-41: 
-42: // Aticle fonts definitions
-43: article{
-44: 	font-family:$font-sansa-pro;
-45: 	margin: 0 auto;
-46: 	padding: 0 1.5em 2em;
-47: 	text-align: center;
-48: 
-49: 	h1{
-
-Backtrace:
-sass/main.scss:44
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby22/lib/ruby/gems/2.2.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+Header sass
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$font-sansa-pro\".\A         on line 44 of sass/main.scss\A \A 39: 	}\A 40: }\A 41: \A 42: // Aticle fonts definitions\A 43: article{\A 44: 	font-family:$font-sansa-pro;\A 45: 	margin: 0 auto;\A 46: 	padding: 0 1.5em 2em;\A 47: 	text-align: center;\A 48: \A 49: 	h1{"; }
+/* Project basic settings*/
+/*Pacifico*/
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/pacifico.eot");
+  src: url("./fonts/pacifico.eot?#iefix") format("embedded-opentype"), url("./fonts/pacifico.woff") format("woff"), url("./fonts/pacifico.ttf") format("truetype"), url("./fonts/pacifico.svg#pacifico") format("svg"); }
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/pacifico.eot");
+  src: url("./fonts/pacifico.eot?#iefix") format("embedded-opentype"), url("./fonts/pacifico.woff") format("woff"), url("./fonts/pacifico.ttf") format("truetype"), url("./fonts/pacifico.svg#pacifico") format("svg"); }
+/*Fords Folly*/
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/fords-folly.eot");
+  src: url("./fonts/fords-folly.eot?#iefix") format("embedded-opentype"), url("./fonts/fords-folly.woff2") format("woff2"), url("./fonts/fords-folly.woff") format("woff"), url("./fonts/fords-folly.ttf") format("truetype"), url("./fonts/fords-folly.svg#fordsfolly") format("svg"); }
+@font-face {
+  font-family: 'Fords Folly';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/fords-folly.eot");
+  src: url("./fonts/fords-folly.eot?#iefix") format("embedded-opentype"), url("./fonts/fords-folly.woff2") format("woff2"), url("./fonts/fords-folly.woff") format("woff"), url("./fonts/fords-folly.ttf") format("truetype"), url("./fonts/fords-folly.svg#fords-folly") format("svg"); }
+/* Sansa Pro Bold*/
+@font-face {
+  font-family: 'Sansa Pro Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/sansa-pro-bold.eot");
+  src: url("./fonts/sansa-pro-bold.eot?#iefix") format("embedded-opentype"), url("./fonts/sansa-pro-bold.woff") format("woff"), url("./fonts/sansa-pro-bold.ttf") format("truetype"), url("./fonts/sansa-pro-bold.svg#sansa-pro-bold") format("svg"); }
+/* Sansa Pro */
+@font-face {
+  font-family: 'Sansa Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/sansa-pro.eot");
+  src: url("./fonts/sansa-pro.eot?#iefix") format("embedded-opentype"), url("./fonts/sansa-pro.woff") format("woff"), url("./fonts/sansa-pro.ttf") format("truetype"), url("./fonts/sansa-pro.svg#sansa-pro") format("svg"); }
+@font-face {
+  font-family: 'sunweb-icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/sunweb-icons.eot?-nhl0i");
+  src: url("./fonts/sunweb-icons.eot?#iefix-nhl0i") format("embedded-opentype"), url("./fonts/sunweb-icons.ttf?-nhl0i") format("truetype"), url("./fonts/sunweb-icons.woff?-nhl0i") format("woff"), url("./fonts/sunweb-icons.svg?-nhl0i#sunweb-icons") format("svg"); }
+.icon {
+  font-family: 'sunweb-icons';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-transform: none;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-airplane:before {
+  content: '\e600'; }
+
+.icon-cars:before {
+  content: '\e601'; }
+
+.icon-family:before {
+  content: '\e602'; }
+
+.icon-mountains:before {
+  content: '\e603'; }
+
+.icon-sun:before {
+  content: '\e604'; }
+
+.icon-calendar:before {
+  content: '\e605'; }
+
+.icon-calendar-overview:before {
+  content: '\e606'; }
+
+.icon-clock:before {
+  content: '\e607'; }
+
+.icon-info:before {
+  content: '\e610'; }
+
+.icon-angle-left:before {
+  content: '\e608'; }
+
+.icon-angle-right:before {
+  content: '\e609'; }
+
+.icon-facebook:before {
+  content: '\e60a'; }
+
+.icon-facebook-square:before {
+  content: '\e60b'; }
+
+.icon-google-plus:before {
+  content: '\e60c'; }
+
+.icon-google-plus-square:before {
+  content: '\e60d'; }
+
+.icon-twitter:before {
+  content: '\e60e'; }
+
+.icon-twitter-square:before {
+  content: '\e60f'; }
+
+.icon-xs {
+  font-size: 50%; }
+
+.icon-sm {
+  font-size: 75%; }
+
+.icon-lg {
+  font-size: 150%; }
+
+.icon-xl {
+  font-size: 200%; }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px; }
+
+.top-section {
+  box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: white; }
+
+@media (min-width: 960px) {
+  .top-section {
+    border-radius: 0 0 5px 5px; } }
+main {
+  background-color: white;
+  width: 100%; }
+
+@media (min-width: 960px) {
+  main {
+    margin: 0 5%;
+    width: 90%; } }
+@media (min-width: 1680px) {
+  main {
+    margin: 0 auto; } }
+article {
+  font-family: "Sansa Pro", Verdana, Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0 1.5em 2em;
+  text-align: center; }
+  article h1 {
+    font-family: "Sansa Pro Bold", Verdana, Arial, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 1.5em; }
+  article h2 {
+    color: #ed1c2e;
+    font-family: "Sansa Pro Bold", Verdana, Arial, sans-serif;
+    font-size: 1.2em;
+    font-weight: 400; }
+
+/*# sourceMappingURL=main.css.map */

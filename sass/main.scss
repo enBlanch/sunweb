@@ -4,6 +4,7 @@ Header sass
 
 @import 'settings';
 @import 'mixins';
+@import 'sunwebfonts';
 .wrapper{
 	margin: 0 auto;
 	max-width: $breakpoint-md;
